@@ -24,5 +24,3 @@ public class Album extends Music{
 	}
 }
 
-//expecte:<[Artist: Alan Walker, Year: 2000, Title: Coolest, Type: Album, ISBN: 111-1-11-111-1, Genre: Sci, Format: CD, Tracks: [1st Track, 2nd Track]]> 
-//but was:<[Tracks:[1st Track, 2nd Track], Artist: Alan Walker, Year: 2000, Title: Coolest, Type: Album, ISBN: 111-1-11-111-1, Genre: Sci, Format: CD]>
