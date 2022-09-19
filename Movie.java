@@ -43,13 +43,7 @@ public class Movie extends Media{
 	}
 	
 	public int compareTo(Media o){
-		/*
-		 Books come before Movies, Movies come before Series, Series come before Music
-		 Books are sorted first by author, then by title
-		 Movies are sorted first by title, then by year
-		 Series are sorted just by title
-		 Music is sorted first by artist, then by year, then by title
-		 */
+
 		int returningInt = 0;
 		if(o instanceof Book) {
 			returningInt = 1;
