@@ -24,20 +24,14 @@ abstract class Music extends Media{
     }	
     
     public String toString() {
-    	//"Artist: artist, Year: year, Title: title, " followed by the information given in the format of the toString( method of the parent class.
+    	//"Artist: artist, Year: year, Title: title
     	String stringBuilder = "Artist: " + getArtist() + ", Year: " + getYear() + ", Title: " + getTitle() + ", " + super.toString();
     	return stringBuilder;
     }
     
 
     public int compareTo(Media m){
-		/*
-		 Books come before Movies, Movies come before Series, Series come before Music
-		 Books are sorted first by author, then by title
-		 Movies are sorted first by title, then by year
-		 Series are sorted just by title
-		 Music is sorted first by artist, then by year, then by title
-		 */
+
 		int returningInt = 0;
 		
 		if(!(m instanceof Book)) {
